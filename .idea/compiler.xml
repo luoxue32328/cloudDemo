@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-data-server" />
         <module name="eureka-server" />
+        <module name="product-view-service-ribbon" />
         <module name="product-data-service" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="product-data-server" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
+      <module name="product-view-service-ribbon" options="-parameters" />
     </option>
   </component>
 </project>
