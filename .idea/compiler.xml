@@ -8,12 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-data-server" />
         <module name="eureka-server" />
-        <module name="product-view-service-ribbon" />
         <module name="product-data-service" />
+        <module name="product-view-service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="product-data-server" target="1.7" />
+      <module name="product-view-service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +22,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="product-data-server" options="-parameters" />
       <module name="product-data-service" options="-parameters" />
+      <module name="product-view-service-feign" options="-parameters" />
       <module name="product-view-service-ribbon" options="-parameters" />
     </option>
   </component>
